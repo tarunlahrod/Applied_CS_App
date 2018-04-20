@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+    <Button
+        android:id="@+id/MM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#a6df9d"
+        android:fontFamily="casual"
+        android:layout_gravity="left"
+        android:text="Main Menu"
+        android:onClick="onClickMM"
+        android:textSize="20sp"
+        android:textColor="#216303" />
+
+        <Button
+            android:id="@+id/editDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:background="#ce91e4"
+            android:fontFamily="casual"
+            android:text="edit details"
+            android:onClick="onClickEditDetails"
+            android:textColor="#bb00ff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#7b7575"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name : "
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Name"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textColor="#0d00ff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Branch : "
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/userBranch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Branch"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textColor="#0d00ff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester : "
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/userSem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Semester"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textColor="#0d00ff"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/entersub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter subjects >>"
+        android:textSize="20sp"
+        android:textColor="#4285f4"
+        android:layout_gravity="end"
+        android:onClick="onClickEnterSub"
+        android:background="#f9f8f8"
+        android:fontFamily="monospace"
+        android:layout_marginTop="25dp"/>
+
+
+</LinearLayout>

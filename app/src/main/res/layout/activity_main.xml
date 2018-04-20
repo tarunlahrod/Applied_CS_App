@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="50dp"
+    tools:context="com.example.dabba.attendance.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#a6df9d"
+            android:fontFamily="casual"
+            android:text="Profile"
+            android:onClick="onClickProfile"
+            android:textColor="#216303"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:background="#7eb5ec"
+        android:textColor="#0044ff"
+        android:text="Show Time Table"
+        android:textSize="20sp"
+        android:onClick="onClickShowTimetable"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:background="#7eb5ec"
+        android:textColor="#0044ff"
+        android:text="Show today's Attendance"
+        android:textSize="20sp"
+        android:onClick="onClickTodaysAttendance"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:background="#7eb5ec"
+        android:textColor="#0044ff"
+        android:text="Mark Attendance"
+        android:textSize="20sp"
+        android:onClick="onClickMark"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:background="#7eb5ec"
+        android:textColor="#0044ff"
+        android:text="View Attendance"
+        android:textSize="20sp"
+        android:onClick="onClickView"
+        android:layout_marginBottom="5dp"/>
+
+
+</LinearLayout>

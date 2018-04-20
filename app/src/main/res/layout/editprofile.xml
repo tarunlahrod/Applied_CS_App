@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:textSize="20sp"
+        android:textColor="#f53434"
+        android:fontFamily="casual"
+        android:layout_gravity="start"
+        android:onClick="onClickCancel"
+        android:background="#f5a7ab"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#7b7575"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter details"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#494646"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#7b7575"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:textColor="#2685d9"
+            android:textSize="20sp"
+            android:fontFamily="casual"/>
+
+        <EditText
+            android:id="@+id/editBranch"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="branch"
+            android:inputType="textCapCharacters"
+            android:textColor="#2685d9"
+            android:textSize="20sp"
+            android:fontFamily="casual"/>
+
+        <EditText
+            android:id="@+id/editSem"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="semester"
+            android:inputType="number"
+            android:textColor="#2685d9"
+            android:textSize="20sp"
+            android:fontFamily="casual"/>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SAVE"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#bb00ff"
+            android:onClick="onClickSave"
+            android:background="#ce91e4"/>
+
+    </LinearLayout>
+
+</LinearLayout>

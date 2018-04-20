@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dabba.attendance">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity"
+            android:label="Attendance"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Profile"
+            android:screenOrientation="portrait"
+            android:label="Profile">
+        </activity>
+
+        <activity android:name=".editprofile"
+            android:screenOrientation="portrait"
+            android:label="Edit Profile">
+        </activity>
+
+        <activity android:name=".scr3"
+            android:label="Mark Attendance"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".scr4"
+            android:label="View Attendance P1"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".scr5"
+            android:label="View Attendance P2"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".scr6"
+            android:label="Show Time Table"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+        <activity android:name=".scr7"
+            android:label="Enter subjects"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".scr8"
+            android:label="Add subject"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+        <activity android:name=".scr2p2"
+            android:label="Edit Details"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".scr9"
+            android:label="Select subject"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".day"
+            android:label="Select day"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>
